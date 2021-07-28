@@ -1,5 +1,5 @@
 {
-	"hero": [
+	"holder": [
 		{
 			"id": 0,
 			"name": "Ladybug",
@@ -161,6 +161,96 @@
 			"kwami": ["Longg", "Tikki"],
 			"magical_words": "Longg, Tikki, Unify!",
 			"main_power": "Wind Dragon, Water Dragon, Fire Dragon and Lucky Charm"
+		},
+		{
+			"id": 18,
+			"name": "Lady Noir",
+			"image": "lady-noir.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Plagg"],
+			"magical_words": "Plagg Claws Out!",
+			"main_power": "Cataclysm"
+		},
+		{
+			"id": 19,
+			"name": "Multinoir",
+			"image": "multinoir.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Mullo", "Plagg"],
+			"magical_words": "Mullo, Plagg, Unify!",
+			"main_power": "Multitude and Cataclysm"
+		},
+		{
+			"id": 20,
+			"name": "Multifox",
+			"image": "multifox.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Mullo", "Trixx"],
+			"magical_words": "Mullo, Trixx, Unify!",
+			"main_power": "Multitude and Hallucikinesis"
+		},
+		{
+			"id": 21,
+			"name": "Pegabug",
+			"image": "pegabug.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Tikki", "Kaalki"],
+			"magical_words": "Tikki, Kaalki, Unify!",
+			"main_power": "Lucky Charm and Voyage"
+		},
+		{
+			"id": 22,
+			"name": "Golden Bug",
+			"image": "golden-bug.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Tikki", "Pollen"],
+			"magical_words": "Tikki, Pollen, Unify!",
+			"main_power": "Lucky Charm and Venom"
+		},
+		{
+			"id": 23,
+			"name": "Hawk Moth",
+			"image": "hawk-moth.png",
+			"real_name": "Gabriel Agreste",
+			"kwami": ["Nooroo"],
+			"magical_words": "Nooroo, Dark Wings Rise!",
+			"main_power": "Akumatization"
+		},
+		{
+			"id": 24,
+			"name": "Mayura",
+			"image": "mayura.png",
+			"real_name": "Nathalie Sancoeuer",
+			"kwami": ["Dussu"],
+			"magical_words": "Dussu Spread My Feathers!",
+			"main_power": "Amokization"
+		},
+		{
+			"id": 25,
+			"name": "Shadow Moth",
+			"image": "shadow-moth.png",
+			"real_name": "Gabriel Agreste",
+			"kwami": ["Nooroo", "Dussu"],
+			"magical_words": "Nooroo, Dussu, Unify!",
+			"main_power": "Akumatization and Amokization"
+		},
+		{
+			"id": 26,
+			"name": "Snake Noir",
+			"image": "snake-noir.png",
+			"real_name": "Adrien Agreste",
+			"kwami": ["Plagg", "Sass"],
+			"magical_words": "Plagg, Sass, Unify!",
+			"main_power": "Cataclysm and Second Chance"
+		},
+		{
+			"id": 27,
+			"name": "Mister Bug",
+			"image": "mister-bug.png",
+			"real_name": "Adrien Agreste",
+			"kwami": ["Tikki"],
+			"magical_words": "Tikki, Spots On!",
+			"main_power": "Lucky Charm"
 		}
 	]
 }

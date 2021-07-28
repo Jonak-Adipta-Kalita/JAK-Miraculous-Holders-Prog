@@ -1,43 +1,43 @@
 const dex = document.getElementById('dex');
-const fetchHeros = async () => {
-    const url = "/heros.json";
+const fetchHolders = async () => {
+    const url = "/holders.json";
 	const res = await fetch(url);
 	const data = await res.json();
 	console.log(data);
-	const heros = data.hero.map((result, index) => ({
+	const holders = data.holder.map((result, index) => ({
 		...result,
 		id: index + 1,
 		image: `./images/${result.image}`
 	}));
-	displayHeros(heros);
+	displayHolders(holders);
 };
 
-const displayHeros = (hero) => {
-    const herosHTMLString = hero
-        .map((hereo) => (`
-			<li class="card" onclick="selectHero(${hereo.id})">
-				<img class="card-image" src="${hereo.image}"/>
-				<h2 class="card-title">${hereo.id}. ${hereo.name}</h2>
+const displayHolders = (holder) => {
+    const holdersHTMLString = holder
+        .map((holdere) => (`
+			<li class="card" onclick="selectHolder(${holdere.id})">
+				<img class="card-image" src="${holdere.image}"/>
+				<h2 class="card-title">${holdere.id}. ${holdere.name}</h2>
 			</li>
 		`)).join('');
-    dex.innerHTML = herosHTMLString;
+    dex.innerHTML = holdersHTMLString;
 };
 
-const selectHero = async (id) => {
-	const url = `\heros.json`;
+const selectHolder = async (id) => {
+	const url = `\holders.json`;
 	const res = await fetch(url);
-	const hereo = await res.json();
-	displayPopup(hereo, id);
+	const holdere = await res.json();
+	displayPopup(holdere, id);
 };
 
-const displayPopup = (hereo, id) => {
-	const image = `./images/${hereo.hero[id - 1].image}`;
+const displayPopup = (holdere, id) => {
+	const image = `./images/${holdere.holder[id - 1].image}`;
 	let kwami;
 	
-	if (!hereo.hero[id - 1].kwami[1]) {
-		kwami = Array(hereo.hero[id - 1].kwami).map((kwamie) => kwamie[0]);
+	if (!holdere.holder[id - 1].kwami[1]) {
+		kwami = Array(holdere.holder[id - 1].kwami).map((kwamie) => kwamie[0]);
 	} else {
-		kwami = Array(hereo.hero[id - 1].kwami).map((kwamie) => kwamie.join(", "));
+		kwami = Array(holdere.holder[id - 1].kwami).map((kwamie) => kwamie.join(", "));
 	}
 
 	const htmlString = `
@@ -46,12 +46,12 @@ const displayPopup = (hereo, id) => {
 			<div class="card">
 				<img class="card-image" src="${image}" />
 				<h2 class="card-title">
-					${hereo.hero[id - 1].id + 1}. ${hereo.hero[id - 1].name}
+					${holdere.holder[id - 1].id + 1}. ${holdere.holder[id - 1].name}
 				</h2>
-				<p><small>Real Name: </small>${hereo.hero[id - 1].real_name}</p>
+				<p><small>Real Name: </small>${holdere.holder[id - 1].real_name}</p>
 				<p><small>Kwami: </small>${kwami}</p>
-				<p><small>Magcal Words: </small>${hereo.hero[id - 1].magical_words}</p>
-				<p><small>Main Power: </small>${hereo.hero[id - 1].main_power}</p>
+				<p><small>Magcal Words: </small>${holdere.holder[id - 1].magical_words}</p>
+				<p><small>Main Power: </small>${holdere.holder[id - 1].main_power}</p>
 			</div>
 		</div>
 	`;
@@ -63,4 +63,4 @@ const closePopup = () => {
 	popup.parentElement.removeChild(popup);
 };
 
-fetchHeros();
+fetchHolders();
