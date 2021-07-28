@@ -32,7 +32,6 @@ const selectHero = async (id) => {
 
 const displayPopup = (hereo, id) => {
 	const image = `./images/${hereo.hero[id - 1].image}`;
-	const power_and_ability = Array(hereo.hero[id - 1].power_and_ability).map((powerandability) => powerandability.join(", "));
 	let goal;
 	let kwami;
 	let hobbies;
@@ -65,13 +64,10 @@ const displayPopup = (hereo, id) => {
 				</h2>
 				<p><small>Real Name: </small>${hereo.hero[id - 1].real_name}</p>
 				<p><small>Kwami: </small>${kwami}</p>
-				<p><small>Father: </small>${hereo.hero[id - 1].father}</p>
-				<p><small>Mother: </small>${hereo.hero[id - 1].mother}</p>
 				<p><small>Magcal Words: </small>${hereo.hero[id - 1].magical_words}</p>
 				<p><small>Main Power: </small>${hereo.hero[id - 1].main_power}</p>
 				<p><small>Goal(s): </small>${goal}</p>
 				<p><small>Hobby(s): </small>${hobbies}</p>
-				<p><small>Power and Ability(s): </small>${power_and_ability}</p>
 			</div>
 		</div>
 	`;

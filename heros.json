@@ -2,6 +2,73 @@
 	"hero": [
 		{
 			"id": 0,
+			"name": "Ladybug",
+			"image": "ladybug.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Tikki"],
+			"magical_words": "Tikki, spots on!",
+			"goals": [
+				"Save the world from Hawk Moth, Mayura and their pawns",
+				"Be with Adrien",
+				"Expose Lila's lies"
+			],
+			"hobbies": [
+				"Saving people.",
+				"Fighting villains.",
+				"Admiring Adrien Agreste.",
+				"Designing."
+			],
+			"main_power": "Lucky Charm"
+		},
+		{
+			"id": 1,
+			"name": "Cat Noir",
+			"image": "cat-noir.png",
+			"real_name": "Adrien Agreste",
+			"kwami": ["Plagg"],
+			"magical_words": "Plagg, claws out!",
+			"goals": [
+				"Save the world from his father",
+				"Win Ladybug's Heart"
+			],
+			"hobbies": [
+				"Saving people",
+				"Fighting villains",
+				"Flirting with Ladybug"
+			],
+			"main_power": "Cataclysm"
+		},
+		{
+			"id": 2,
+			"name": "Rena Rouge",
+			"image": "rena-rouge.png",
+			"real_name": "Alya Césaire",
+			"kwami": ["Trixx"],
+			"magical_words": "Trixx, let's pounce!",
+			"goals": [
+				"Help Ladybug discover Hawk Moth's secret identity",
+				"Help Marinette win Adrien's affection",
+				"Assist Ladybug in fighting against villains"
+			],
+			"hobbies": [
+				"Reporting",
+				"Blogging"
+			],
+			"main_power": "Hallucikinesis"
+		},
+		{
+			"id": 3,
+			"name": "Carapace",
+			"image": "carapace.png",
+			"real_name": "Nino Lahiffe",
+			"kwami": ["Wayzz"],
+			"magical_words": "Wayzz, Shell On!",
+			"goals": ["Protect Paris from Hawk Moth and his Akumatized villains."],
+			"hobbies": ["Hanging out with his friends."],
+			"main_power": "Shell-ter"
+		},
+		{
+			"id": 4,
 			"name": "Bunnyx",
 			"image": "bunnyx.png",
 			"real_name": "Alix Kubdel",
@@ -9,14 +76,7 @@
 			"magical_words": "Fluff, clockwise!",
 			"goals": ["Defeat the future Hawk Moth and his pawns"],
 			"hobbies": ["Hanging out with her friends"],
-			"main_power": "Burrow",
-			"father": "Mr. Kubdel",
-			"mother": "Jalil Kubdel",
-			"power_and_ability": [
-				"Fighting skills",
-				"Rollerblading",
-				"Graffiti art"
-			]
+			"main_power": "Burrow"
 		}
 	]
 }
