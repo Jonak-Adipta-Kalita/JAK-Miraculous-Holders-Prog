@@ -1,0 +1,22 @@
+{
+	"hero": [
+		{
+			"id": 0,
+			"name": "Bunnyx",
+			"image": "bunnyx.png",
+			"real_name": "Alix Kubdel",
+			"kwami": ["Fluff"],
+			"magical_words": "Fluff, clockwise!",
+			"goals": ["Defeat the future Hawk Moth and his pawns"],
+			"hobbies": ["Hanging out with her friends"],
+			"main_power": "Burrow",
+			"father": "Mr. Kubdel",
+			"mother": "Jalil Kubdel",
+			"power_and_ability": [
+				"Fighting skills",
+				"Rollerblading",
+				"Graffiti art"
+			]
+		}
+	]
+}
