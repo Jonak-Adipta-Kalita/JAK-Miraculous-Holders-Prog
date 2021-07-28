@@ -125,6 +125,24 @@
 			"kwami": ["Liiri"],
 			"magical_words": "Liiri, Wings of Liberty!",
 			"main_power": "Intangibility"
+		},
+		{
+			"id": 14,
+			"name": "Multimouse",
+			"image": "multimouse.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Mullo"],
+			"magical_words": "Mullo, Get Scweaky!",
+			"main_power": "Multitude"
+		},
+		{
+			"id": 15,
+			"name": "Aspik",
+			"image": "aspik.png",
+			"real_name": "Adrien Agreste",
+			"kwami": ["Sass"],
+			"magical_words": "Sass, Scales Slither!",
+			"main_power": "Second Chance"
 		}
 	]
 }
