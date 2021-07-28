@@ -143,6 +143,24 @@
 			"kwami": ["Sass"],
 			"magical_words": "Sass, Scales Slither!",
 			"main_power": "Second Chance"
+		},
+		{
+			"id": 16,
+			"name": "Multibug",
+			"image": "multibug.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Mullo", "Tikki"],
+			"magical_words": "Mullo, Tikki, Unify!",
+			"main_power": "Multitude and Lucky Charm"
+		},
+		{
+			"id": 17,
+			"name": "Dragon Bug",
+			"image": "dragon-bug.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Longg", "Tikki"],
+			"magical_words": "Longg, Tikki, Unify!",
+			"main_power": "Wind Dragon, Water Dragon, Fire Dragon and Lucky Charm"
 		}
 	]
 }
