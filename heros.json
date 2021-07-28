@@ -6,18 +6,7 @@
 			"image": "ladybug.png",
 			"real_name": "Marinette Dupain-Cheng",
 			"kwami": ["Tikki"],
-			"magical_words": "Tikki, spots on!",
-			"goals": [
-				"Save the world from Hawk Moth, Mayura and their pawns",
-				"Be with Adrien",
-				"Expose Lila's lies"
-			],
-			"hobbies": [
-				"Saving people.",
-				"Fighting villains.",
-				"Admiring Adrien Agreste.",
-				"Designing."
-			],
+			"magical_words": "Tikki, Spots On!",
 			"main_power": "Lucky Charm"
 		},
 		{
@@ -26,16 +15,7 @@
 			"image": "cat-noir.png",
 			"real_name": "Adrien Agreste",
 			"kwami": ["Plagg"],
-			"magical_words": "Plagg, claws out!",
-			"goals": [
-				"Save the world from his father",
-				"Win Ladybug's Heart"
-			],
-			"hobbies": [
-				"Saving people",
-				"Fighting villains",
-				"Flirting with Ladybug"
-			],
+			"magical_words": "Plagg, Claws Out!",
 			"main_power": "Cataclysm"
 		},
 		{
@@ -44,16 +24,7 @@
 			"image": "rena-rouge.png",
 			"real_name": "Alya Césaire",
 			"kwami": ["Trixx"],
-			"magical_words": "Trixx, let's pounce!",
-			"goals": [
-				"Help Ladybug discover Hawk Moth's secret identity",
-				"Help Marinette win Adrien's affection",
-				"Assist Ladybug in fighting against villains"
-			],
-			"hobbies": [
-				"Reporting",
-				"Blogging"
-			],
+			"magical_words": "Trixx, Let's Pounce!",
 			"main_power": "Hallucikinesis"
 		},
 		{
@@ -63,8 +34,6 @@
 			"real_name": "Nino Lahiffe",
 			"kwami": ["Wayzz"],
 			"magical_words": "Wayzz, Shell On!",
-			"goals": ["Protect Paris from Hawk Moth and his Akumatized villains."],
-			"hobbies": ["Hanging out with his friends."],
 			"main_power": "Shell-ter"
 		},
 		{
@@ -73,10 +42,89 @@
 			"image": "bunnyx.png",
 			"real_name": "Alix Kubdel",
 			"kwami": ["Fluff"],
-			"magical_words": "Fluff, clockwise!",
-			"goals": ["Defeat the future Hawk Moth and his pawns"],
-			"hobbies": ["Hanging out with her friends"],
+			"magical_words": "Fluff, Clockwise!",
 			"main_power": "Burrow"
+		},
+		{
+			"id": 5,
+			"name": "King Monkey",
+			"image": "king-monkey.png",
+			"real_name": "Lê Chiến Kim",
+			"kwami": ["Xuppu"],
+			"magical_words": "Xuppu, Showtime!",
+			"main_power": "Uproar"
+		},
+		{
+			"id": 6,
+			"name": "Pegasus",
+			"image": "pegasus.png",
+			"real_name": "Max Kanté",
+			"kwami": ["Kaalki"],
+			"magical_words": "Kaalki, Full Gallop!",
+			"main_power": "Voyage"
+		},
+		{
+			"id": 7,
+			"name": "Pigella",
+			"image": "pigella.png",
+			"real_name": "Rose Lavillant",
+			"kwami": ["Daizzi"],
+			"magical_words": "Daizzi, Rejoice!",
+			"main_power": "Gift"
+		},
+		{
+			"id": 8,
+			"name": "Polymouse",
+			"image": "polymouse.png",
+			"real_name": "Myléne Hapréle",
+			"kwami": ["Mullo"],
+			"magical_words": "Mullo, Get Scweaky!",
+			"main_power": "Multitude"
+		},
+		{
+			"id": 9,
+			"name": "Queen Bee",
+			"image": "queen-bee.png",
+			"real_name": "Chloé Bourgeois",
+			"kwami": ["Pollen"],
+			"magical_words": "Pollen, Buzz On!",
+			"main_power": "Venom"
+		},
+		{
+			"id": 10,
+			"name": "Vesperia",
+			"image": "vesperia.png",
+			"real_name": "Zoé Lee",
+			"kwami": ["Pollen"],
+			"magical_words": "Pollen, Buzz On!",
+			"main_power": "Venom"
+		},
+		{
+			"id": 11,
+			"name": "Ryuko",
+			"image": "ryuko.png",
+			"real_name": "Kagami Tsurugi",
+			"kwami": ["Longg"],
+			"magical_words": "Longg, Bring the Storm!",
+			"main_power": "Wind Dragon, Water Dragon, Thunder Dragon"
+		},
+		{
+			"id": 12,
+			"name": "Viperion",
+			"image": "viperion.png",
+			"real_name": "Luka Couffaine",
+			"kwami": ["Sass"],
+			"magical_words": "Sass, Scales Slither!",
+			"main_power": "Second Chance"
+		},
+		{
+			"id": 13,
+			"name": "Eagle",
+			"image": "eagle.png",
+			"real_name": "Jessica Keynes",
+			"kwami": ["Liiri"],
+			"magical_words": "Liiri, Wings of Liberty!",
+			"main_power": "Intangibility"
 		}
 	]
 }

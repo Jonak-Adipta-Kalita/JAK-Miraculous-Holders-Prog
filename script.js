@@ -32,26 +32,12 @@ const selectHero = async (id) => {
 
 const displayPopup = (hereo, id) => {
 	const image = `./images/${hereo.hero[id - 1].image}`;
-	let goal;
 	let kwami;
-	let hobbies;
-	
-	if (!hereo.hero[id - 1].goals[1]) {
-		goal = Array(hereo.hero[id - 1].goals).map((gol) => gol[0]);
-	} else {
-		goal = Array(hereo.hero[id - 1].goals).map((gol) => gol.join(", "));
-	}
 	
 	if (!hereo.hero[id - 1].kwami[1]) {
 		kwami = Array(hereo.hero[id - 1].kwami).map((kwamie) => kwamie[0]);
 	} else {
 		kwami = Array(hereo.hero[id - 1].kwami).map((kwamie) => kwamie.join(", "));
-	}
-	
-	if (!hereo.hero[id - 1].hobbies[1]) {
-		hobbies = Array(hereo.hero[id - 1].hobbies).map((hobby) => hobby[0]);
-	} else {
-		hobbies = Array(hereo.hero[id - 1].hobbies).map((hobby) => hobby.join(", "));
 	}
 
 	const htmlString = `
@@ -66,8 +52,6 @@ const displayPopup = (hereo, id) => {
 				<p><small>Kwami: </small>${kwami}</p>
 				<p><small>Magcal Words: </small>${hereo.hero[id - 1].magical_words}</p>
 				<p><small>Main Power: </small>${hereo.hero[id - 1].main_power}</p>
-				<p><small>Goal(s): </small>${goal}</p>
-				<p><small>Hobby(s): </small>${hobbies}</p>
 			</div>
 		</div>
 	`;
