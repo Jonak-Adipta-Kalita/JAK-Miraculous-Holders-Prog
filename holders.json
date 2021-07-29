@@ -191,8 +191,8 @@
 		},
 		{
 			"id": 21,
-			"name": "Golden Bug",
-			"image": "golden-bug.png",
+			"name": "Ladybee",
+			"image": "ladybee.png",
 			"real_name": "Marinette Dupain-Cheng",
 			"kwami": ["Tikki", "Pollen"],
 			"magical_words": "Tikki, Pollen, Unify!",
