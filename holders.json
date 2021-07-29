@@ -191,15 +191,6 @@
 		},
 		{
 			"id": 21,
-			"name": "Pegabug",
-			"image": "pegabug.png",
-			"real_name": "Marinette Dupain-Cheng",
-			"kwami": ["Tikki", "Kaalki"],
-			"magical_words": "Tikki, Kaalki, Unify!",
-			"main_power": "Lucky Charm and Voyage"
-		},
-		{
-			"id": 22,
 			"name": "Golden Bug",
 			"image": "golden-bug.png",
 			"real_name": "Marinette Dupain-Cheng",
@@ -208,7 +199,7 @@
 			"main_power": "Lucky Charm and Venom"
 		},
 		{
-			"id": 23,
+			"id": 22,
 			"name": "Hawk Moth",
 			"image": "hawk-moth.png",
 			"real_name": "Gabriel Agreste",
@@ -217,7 +208,7 @@
 			"main_power": "Akumatization"
 		},
 		{
-			"id": 24,
+			"id": 23,
 			"name": "Mayura",
 			"image": "mayura.png",
 			"real_name": "Nathalie Sancoeuer",
@@ -226,7 +217,7 @@
 			"main_power": "Amokization"
 		},
 		{
-			"id": 25,
+			"id": 24,
 			"name": "Shadow Moth",
 			"image": "shadow-moth.png",
 			"real_name": "Gabriel Agreste",
@@ -235,7 +226,7 @@
 			"main_power": "Akumatization and Amokization"
 		},
 		{
-			"id": 26,
+			"id": 25,
 			"name": "Snake Noir",
 			"image": "snake-noir.png",
 			"real_name": "Adrien Agreste",
@@ -244,13 +235,22 @@
 			"main_power": "Cataclysm and Second Chance"
 		},
 		{
-			"id": 27,
+			"id": 26,
 			"name": "Mister Bug",
 			"image": "mister-bug.png",
 			"real_name": "Adrien Agreste",
 			"kwami": ["Tikki"],
 			"magical_words": "Tikki, Spots On!",
 			"main_power": "Lucky Charm"
+		},
+		{
+			"id": 27,
+			"name": "Pegabug",
+			"image": "pegabug.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Tikki", "Kaalki"],
+			"magical_words": "Tikki, Kaalki, Unify!",
+			"main_power": "Lucky Charm and Voyage"
 		}
 	]
 }
