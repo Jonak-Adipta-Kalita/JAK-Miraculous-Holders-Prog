@@ -245,6 +245,15 @@
 		},
 		{
 			"id": 27,
+			"name": "Jade Turtle",
+			"image": "jade-turtle.png",
+			"real_name": "Master Wang Fu",
+			"kwami": ["Wayzz"],
+			"magical_words": "Wayzz Shell On!",
+			"main_power": "Shell-ter"
+		},
+		{
+			"id": 28,
 			"name": "Pegabug",
 			"image": "pegabug.png",
 			"real_name": "Marinette Dupain-Cheng",
