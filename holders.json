@@ -254,6 +254,15 @@
 		},
 		{
 			"id": 28,
+			"name": "Rena Furtive",
+			"image": "rena-furtive.png",
+			"real_name": "Alya Césaire",
+			"kwami": ["Trixx"],
+			"magical_words": "Trixx, Let's Pounce!",
+			"main_power": "Hallucikinesis"
+		},
+		{
+			"id": 29,
 			"name": "Pegabug",
 			"image": "pegabug.png",
 			"real_name": "Marinette Dupain-Cheng",
