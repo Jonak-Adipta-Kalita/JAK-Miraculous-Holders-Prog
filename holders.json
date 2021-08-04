@@ -269,6 +269,15 @@
 			"kwami": ["Tikki", "Kaalki"],
 			"magical_words": "Tikki, Kaalki, Unify!",
 			"main_power": "Lucky Charm and Voyage"
+		},
+		{
+			"id": 30,
+			"name": "Purple Tigress",
+			"image": "purple-tigress.png",
+			"real_name": "Juleka Couffaine",
+			"kwami": ["Roarr"],
+			"magical_words": "Roarr, Paint my Strips!",
+			"main_power": "Collision"
 		}
 	]
 }
