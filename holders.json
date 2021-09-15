@@ -278,6 +278,15 @@
 			"kwami": ["Roarr"],
 			"magical_words": "Roarr, Paint my Strips!",
 			"main_power": "Collision"
+		},
+		{
+			"id": 31,
+			"name": "Justice Bug",
+			"image": "justice-bug.png",
+			"real_name": "Alya Césaire",
+			"kwami": ["Tikki"],
+			"magical_words": "Tikki, Spots On!",
+			"main_power": "Lucky Charm"
 		}
 	]
 }
