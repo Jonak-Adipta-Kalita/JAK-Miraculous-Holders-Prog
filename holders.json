@@ -287,6 +287,15 @@
 			"kwami": ["Tikki"],
 			"magical_words": "Tikki, Spots On!",
 			"main_power": "Lucky Charm"
+		},
+		{
+			"id": 32,
+			"name": "",
+			"image": ".png",
+			"real_name": "Gabriel Agreste",
+			"kwami": ["Nooroo", "Dussu", "Plagg"],
+			"magical_words": "Nooroo, Dussu, Plagg, Unify!",
+			"main_power": "Akumatization, Amokization, Cataclysm"
 		}
 	]
 }
