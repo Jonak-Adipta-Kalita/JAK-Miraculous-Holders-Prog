@@ -290,8 +290,8 @@
 		},
 		{
 			"id": 32,
-			"name": "",
-			"image": ".png",
+			"name": "Shadow Noir",
+			"image": "shadow-noir.png",
 			"real_name": "Gabriel Agreste",
 			"kwami": ["Nooroo", "Dussu", "Plagg"],
 			"magical_words": "Nooroo, Dussu, Plagg, Unify!",
