@@ -50,7 +50,7 @@ const displayPopup = (holdere, id) => {
 				</h2>
 				<p><small>Real Name: </small>${holdere.holder[id - 1].real_name}</p>
 				<p><small>Kwami: </small>${kwami}</p>
-				<p><small>Magcal Words: </small>${holdere.holder[id - 1].magical_words}</p>
+				<p><small>Magical Words: </small>${holdere.holder[id - 1].magical_words}</p>
 				<p><small>Main Power: </small>${holdere.holder[id - 1].main_power}</p>
 			</div>
 		</div>
