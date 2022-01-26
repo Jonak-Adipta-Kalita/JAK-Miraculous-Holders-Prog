@@ -296,6 +296,15 @@
 			"kwami": ["Nooroo", "Dussu", "Plagg"],
 			"magical_words": "Nooroo, Dussu, Plagg, Unify!",
 			"main_power": "Akumatization, Amokization and Cataclysm"
+		},
+		{
+			"id": 33,
+			"name": "Cat Walker",
+			"image": "cat-walker.png",
+			"real_name": "Adrien Agreste",
+			"kwami": ["Plagg"],
+			"magical_words": "Plagg, Claws Out!",
+			"main_power": "Cataclysm"
 		}
 	]
 }
