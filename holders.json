@@ -305,6 +305,33 @@
 			"kwami": ["Plagg"],
 			"magical_words": "Plagg, Claws Out!",
 			"main_power": "Cataclysm"
+		},
+		{
+			"id": 34,
+			"name": "Pellibug",
+			"image": "pellibug.png",
+			"real_name": "Marinette Dupain-Cheng",
+			"kwami": ["Tikki", "Fluff", "Kaalki"],
+			"magical_words": "Tikki, Fluff, Kaalki, Unify!",
+			"main_power": "Lucky Charm, Voyage, Burrow"
+		},
+		{
+			"id": 35,
+			"name": "Flare Sight",
+			"image": "flare-sight.png",
+			"real_name": "Felix Agreste",
+			"kwami": ["Bark"],
+			"magical_words": "Bark Sweep with Pleasure!",
+			"main_power": "Pega"
+		},
+		{
+			"id": 36,
+			"name": "Rooster Bolt",
+			"image": "rooster-bolt.png",
+			"real_name": "Marc Anciel",
+			"kwami": ["Orikko"],
+			"magical_words": "Orikko Transform!",
+			"main_power": "Sublimation"
 		}
 	]
 }
